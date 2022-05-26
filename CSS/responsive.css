@@ -1,0 +1,628 @@
+/*===============================================================
+`xs` returns only a ruleset and no media query
+================================================================= */
+
+@media (max-width: 320px) {
+
+    /*================================================================
+                                Home Page Start
+    =================================================================== */
+    /*=====================
+            Navbar
+    =======================*/
+    #navbar .navbar-brand img {
+        max-width: 100px;
+    }
+    /*=====================
+            About
+    =======================*/
+    .about-img-shape {
+        width: 120px;
+        height: 120px;
+        right: 0px;
+    }
+    .about-img-shape .shape-cnt {
+        margin-top: 30px;
+    }
+    /*=====================
+        Business Call
+    =======================*/
+    .b-call h2 {
+        font-size: 18px !important;
+    }
+    /*================================================================
+                                Home Page end
+    =================================================================== */
+}
+
+
+/*================================================================
+`sm` applies to x-small devices (portrait phones, less than 576px)
+=================================================================== */
+
+@media (min-width: 321px) and (max-width: 575.98px) { 
+
+    /*================================================================
+                                Home Page Start
+    =================================================================== */
+    /*=====================
+            Navbar
+    =======================*/
+    #navbar .navbar-brand img {
+        max-width: 100px;
+    }
+    /*=====================
+            About
+    =======================*/
+    .about-img-shape .shape-cnt {
+        margin-top: 35px;
+    }
+    .about-img-shape {
+        width: 130px;
+        height: 130px;
+        right: 32px;
+    }
+    
+    /*================================================================
+                                Home Page end
+    =================================================================== */
+    /*=====================
+        Project 
+    =======================*/
+    .project-slaider h3 {
+        font-size: 16px;
+    }
+}
+
+
+/*================================================================
+`md` applies to small devices (landscape phones, less than 768px)
+=================================================================== */
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    /*================================================================
+                                Home Page Start
+    =================================================================== */
+    /*=====================
+            Choose
+    =======================*/
+    .choose-card::before {
+        position: absolute;
+        content: "";
+        height: 50%;
+        width: 90%;
+        background-color: #fdebeb;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: -100px;
+        z-index: -1;
+        border-radius: 50%;
+    }
+    /*=====================
+        Business Call
+    =======================*/
+    .b-call h2 {
+        font-size: 28px;
+        margin: 15px 0;
+    }
+    /*================================================================
+                                Home Page end
+    =================================================================== */
+    /*=====================
+             Project 
+    =======================*/
+    .project-slaider h3 {
+        font-size: 16px;
+    }
+    .projects-b-services-tabs .nav-link {
+        padding: .5rem 8px;
+    }
+    /*=====================
+            Funding 
+    =======================*/
+    .b-forward-shapes{
+        display: none;
+    }
+}
+
+
+/*================================================================
+`lg` applies to medium devices (tablets, less than 992px)
+=================================================================== */
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    /*================================================================
+                        Navbar & Footer Are here
+    =================================================================== */
+
+    #footer .img {
+        width: 130px;
+    }
+    #footer p {
+        font-size: 12px;
+    }
+    #footer ul li {
+        margin-right: 2px;
+    }
+    .footer-head h3 {
+        font-size: 18px;
+    }
+    .footer-info a {
+        font-size: 14px;
+    }
+
+    /*================================================================
+                                Home Page Start
+    =================================================================== */
+
+    /*=====================
+            About
+    =======================*/
+    .about-img-shape {
+        width: 150px;
+        height: 150px;
+        right: 5px;
+    }
+
+    .about-img-shape .shape-cnt {
+        margin-top: 38px;
+    }
+
+    .about-img-shape .shape-cnt h2 {
+        font-size: 45px;
+    }
+
+    .about-img-shape .shape-cnt p {
+        font-size: 12px;
+    }
+
+    .about-cnt h2 {
+        font-size: 24px;
+    }
+
+    .about-cnt p {
+        font-size: 14px;
+    }
+
+    .about-cnt h4 {
+        font-size: 14px;
+    }
+
+    /*=====================
+            Choose
+    =======================*/
+
+    .heading h2 {
+        font-size: 28px;
+    }
+    #choose .img a span {
+        font-size: 50px;
+    }
+    #choose .img a {
+        width: 70px;
+        height: 70px;
+        line-height: 75px;;
+        bottom: -70px;
+    }
+    .choose-card {
+        padding: 8px;
+    }
+    .choose-card::before {
+        height: 48%;
+        top: -60px;
+    }
+    .choose-card .card-icon {
+        margin: 10px 0;
+    }
+    .choose-card .card-icon span {
+        height: 60px;
+        width: 60px;
+        line-height: 60px;
+        font-size: 28px;
+    }
+    .choose-card h3 {
+        font-size: 18px;
+        margin-bottom: 6px;
+    }
+    .choose-card p {
+        line-height: 1.5;
+        font-size: 14px;
+    }
+
+    /*=====================
+        Business Loan
+    =======================*/
+
+    .loan-steps h2 {
+        font-size: 24px;
+        margin-bottom: 0;
+        font-weight: 400;
+        line-height: 1.4;
+    }
+    /*=====================
+        Business Call
+    =======================*/
+    .b-call h2 {
+        font-size: 24px;
+    }
+    .b-call span {
+        height: 45px;
+        width: 45px;
+        line-height: 46px;
+        font-size: 20px;
+    }
+    .b-call {
+        padding: 40px 20px;
+    }
+    .b-call a {
+        padding-left: 5px;
+    }
+    /*=====================
+        Business Call
+    =======================*/
+    #team .img ul li a {
+        width: 25px;
+        height: 25px;
+        font-size: 14px;
+    }
+    /*=====================
+            Services
+    =======================*/
+    .services-tab a h3 {
+        font-size: 13px;
+    }
+    .s-cnt-head p {
+        font-size: 14px;
+    }
+    .s-cnt-head h3, .service-cnt ul h3 {
+        font-size: 18px;
+    }
+    .services-nav-prev, .services-nav-next {
+        top: 132px;
+    }
+    /*=====================
+        Clients Words
+    =======================*/
+    .c-words p {
+        font-size: 16px;
+    }
+    /*=====================
+        Success Story
+    =======================*/
+    .story-details h3 {
+        font-size: 18px;
+    }
+    /*================================================================
+                                Home Page end
+    =================================================================== */
+    /*================================================================
+                                About Page Start
+    =================================================================== */
+
+    /*================
+        About Company
+    ==================*/
+    .about-experience {
+        max-width: 280px;
+    }
+    .about-experience p {
+        font-size: 16px;
+        padding-left: 70px;
+    }
+    .about-experience h2 {
+        font-size: 50px;
+        left: 20px;
+    }
+    #gellary h3 {
+        font-size: 22px;
+    }
+
+    /*================================================================
+                                About Page end
+    =================================================================== */
+    /*=====================
+        Services Details
+    =======================*/
+    .left-side-s-area .s-box .form-outline {
+        width: 75%;
+    }
+    .s-details-feature h3 {
+        font-size: 18px;
+    }
+    .s-details-feature .icon span {
+        height: 80px;
+        width: 80px;
+        line-height: 80px;
+        font-size: 40px;
+    }
+    .s-op-hrs ul li, .c-finix ul li {
+        font-size: 15px;
+    }
+    .left-side-s-area h3 {
+        font-size: 20px;
+    }
+    .left-side-s-area .default-btn {
+        padding: 12px 15px;
+    }
+    /*=====================
+        Project 
+    =======================*/
+    .project-slaider h3 {
+        font-size: 16px;
+    }
+    
+    .projects-b-services-tabs .nav-link {
+        padding: .5rem 10px;
+    }
+}
+
+
+/*================================================================
+`xl` applies to large devices (desktops, less than 1200px)
+=================================================================== */
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+    /*================================================================
+                                Home Page Start
+    =================================================================== */
+    /*=====================
+            Navbar
+    =======================*/
+    #navbar .navbar-brand img {
+        max-width: 130px;
+    }
+    #navbar ul li {
+        margin-left: 10px;
+    }
+    #navbar ul li a {
+        font-size: 14px;
+    }
+    #navbar ul li a span {
+        font-size: 7px;
+    }
+    .right-s-nav {
+        margin-left: 10px;
+    }
+    /*=====================
+            About
+    =======================*/
+    .about-img-shape {
+        right: 5px;
+    }
+    /*=====================
+        Business Call
+    =======================*/
+    .b-call h2 {
+        font-size: 28px;
+    }
+    /*=====================
+        Services
+    =======================*/
+    .services-nav-prev, .services-nav-next {
+        top: 148px;
+    }
+    .services-tab a h3 {
+        font-size: 16px;
+    }
+    /*================================================================
+                                Home Page end
+    =================================================================== */
+    /*=====================
+        Project Details
+    =======================*/
+    .p-details .default-btn {
+        padding: 12px 35px;
+    }
+    /*=====================
+        Services Details
+    =======================*/
+    .left-side-s-area .s-box .form-outline {
+        width: 75%;
+    }
+    /*=====================
+        Project 
+    =======================*/
+    .project-slaider h3 {
+        font-size: 16px;
+    }
+    .projects-b-services-tabs .services-tab {
+        padding: 0;
+    }
+}
+
+
+/*================================================================
+`xxl` applies to x-large devices (large desktops, less than 1400px)
+=================================================================== */
+
+@media (max-width: 1399.98px) { 
+
+    .projects-b-services-tabs .services-tab {
+        padding: 0;
+    }
+}
+
+
+/*================================================================
+XX-Large devices (larger desktops, 1400px and up)
+=================================================================== */
+
+@media (min-width: 1400px) { 
+
+}
+
+
+
+
+/*================================================================
+Large devices (desktops, 992px and up)
+=================================================================== */
+
+@media (min-width: 992px) { 
+
+}
+
+
+/*================================================================
+Large devices (desktops, 992px and Down)
+=================================================================== */
+
+@media (max-width: 992px) { 
+    
+    /*================================================================
+                                Home Page Start
+    =================================================================== */
+    /*=====================
+            Navbar
+    =======================*/
+    #navbar{
+        position: relative;
+    }
+    #navbar .menu li{
+        border-top: 1px solid #dbeefd;
+    }
+
+    .right-s-nav {
+        position: absolute;
+        top: 8px;
+        right: 70px;
+    }
+     /*================================================================
+                                Home Page end
+    =================================================================== */
+    /*================================================================
+                                About Page Start
+    =================================================================== */
+
+
+    /*================
+        Page Title
+    ==================*/
+    #page-title {
+    padding: 50px 0;
+    }   
+    #page-title h2 {
+        font-size: 36px;
+    }
+    /*================================================================
+                                About Page end
+    =================================================================== */
+    
+    .projects-b-services-tabs .services-tab {
+        padding: 0;
+    }
+
+    .b-forward-shapes .shape-1 img,
+    .b-forward-shapes .shape-2 img{
+        max-width: 60%;
+    }
+}
+
+
+/*================================================================
+Small devices (landscape phones, 576px and down)
+=================================================================== */
+@media (max-width: 576px) { 
+
+    /*================================================================
+                                Home Page Start
+    =================================================================== */
+
+    .right-s-nav .right-s-nav-call{
+        display: none;
+    }
+    .right-s-nav-button .default-btn {
+        font-size: 12px;
+        padding: 10px 7px;
+    }
+
+    /*=====================
+            About
+    =======================*/
+    .about-img-shape .shape-cnt h2 {
+        font-size: 32px !important;
+    }
+    .about-img-shape .shape-cnt p  {
+        font-size: 11px !important;
+    }
+    .about-cnt h2 {
+        font-size: 24px;
+    }
+    .about-cnt p {
+        font-size: 14px;
+    }
+    .about-cnt h4 {
+        font-size: 15px;
+    }
+    /*=====================
+            Choose
+    =======================*/
+    #choose .img a {
+        width: 70px;
+        height: 70px;
+        line-height: 75px;
+        bottom: -65px;
+    }
+    #choose .img a span {
+        font-size: 50px;
+    }
+    /*=====================
+        Business Loan
+    =======================*/
+    .b-l-cal-form {
+        padding: 20px;
+    }
+    /*=====================
+        Business Call
+    =======================*/
+    .b-call {
+        padding: 65px 20px;
+    }
+    .b-call h2 {
+        font-size: 24px;
+        margin: 15px 0;
+    }
+/*================================================================
+                                Home Page end
+=================================================================== */
+    /*================================================================
+                                About Page Start
+    =================================================================== */
+
+    /*================
+        About Company
+    ==================*/
+    .about-experience {
+        max-width: 260px;
+    }
+    .about-experience p {
+        font-size: 14px;
+        padding-left: 70px;
+    }
+    .about-experience h2 {
+        font-size: 36px;
+        top: 18px;
+    }
+
+    .loan-cal-form {
+        background-color: #e73c3e;
+        padding: 20px;
+    }
+    /*================================================================
+                                About Page end
+    =================================================================== */
+    /*=====================
+        Services Details
+    =======================*/
+    .left-side-s-area .s-box .form-outline {
+        width: 75%;
+    }
+    /*=====================
+            Funding 
+    =======================*/
+    .b-forward-shapes{
+        display: none;
+    }
+}

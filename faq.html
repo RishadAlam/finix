@@ -25,90 +25,174 @@
     ===============================-->
 
     <nav class="navbar navbar-expand-lg" id="navbar">
-        <div class="container-fluid">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">
+          <img src="./Image/logo.png" alt="Logo" />
+        </a>
 
-          <a class="navbar-brand" href="./index.html">
-              <img src="./Image/logo.png" alt="Logo">
-          </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="text-dark"><i class="fas fa-bars"></i></span>
+        </button>
 
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="text-dark"><i class="fas fa-bars"></i></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-            <ul class="navbar-nav menu ms-auto">
-              <li><a href="./index.html">Home</a></li>
-              <li><a href="#">Pages <span class="d-lg-inline-block d-none"><i class="fas fa-chevron-down"></i></span><span class="d-lg-none d-block float-end" ><i class="fas fa-plus"></i></span></a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav menu ms-auto">
+            <li><a href="./index.html">Home</a></li>
+            <li>
+              <a href="#" class="mb-m-button">
+                <label for="pages">Pages</label>
+                <span class="plus d-lg-none d-block float-end"
+                  ><i class="fas fa-plus"></i
+                ></span>
+                <span class="minus d-lg-none d-block float-end d-none"
+                  ><i class="fas fa-minus"></i
+                ></span>
+              </a>
+              <input type="checkbox" id="pages" class="check d-none" />
+              <a href="#" class="lg-m-button"
+                >Pages
+                <span class="d-lg-inline-block d-none"
+                  ><i class="fas fa-chevron-down"></i
+                ></span>
+              </a>
+              <ul>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./team.html">Team</a></li>
+                <li><a href="./faq.html">FAQ</a></li>
+                <li><a href="./gallery.html">Gallery</a></li>
+                <li><a href="./loan calculator.html">Loan Calculator</a></li>
+                <li><a href="./apply.html">Apply Now</a></li>
+                <li><a href="./testimonial.html">Testimonial</a></li>
+                <li class="nav-p">
+                  <a href="#" class="mb-m-button2">
+                    <label for="Projects">Projects</label>
+                    <span class="plus2 d-lg-none d-block float-end"
+                      ><i class="fas fa-plus"></i
+                    ></span>
+                    <span class="minus2 d-lg-none d-block float-end d-none"
+                      ><i class="fas fa-minus"></i
+                    ></span>
+                  </a>
+                  <input type="checkbox" id="Projects" class="check d-none" />
+                  <a href="#" class="lg-m-button"
+                    >Projects
+                    <span class="float-end dp-menu-arrow"
+                      ><i class="fas fa-chevron-down"></i
+                    ></span>
+                  </a>
                   <ul>
-                      <li><a href="./about.html">About</a></li>
-                      <li><a href="./team.html">Team</a></li>
-                      <li><a href="./faq.html">FAQ</a></li>
-                      <li><a href="./gallery.html">Gallery</a></li>
-                      <li><a href="./loan calculator.html">Loan Calculator</a></li>
-                      <li><a href="./apply.html">Apply Now</a></li>
-                      <li><a href="./testimonial.html">Testimonial</a></li>
-                      <li class="nav-p"><a href="#">Projects <span class="float-end dp-menu-arrow"><i class="fas fa-chevron-down"></i></span></a>
-                          <ul>
-                              <li><a href="./services.html">Services</a></li>
-                              <li><a href="./services details.html">Services Details</a></li>
-                          </ul>
-                      </li>
-                      <li><a href="./sign in.html">Sign In</a></li>
-                      <li><a href="./sign up.html">Sign Up</a></li>
-                      <li><a href="./tearms & conditions.html">Tearms & Conditions</a></li>
-                      <li><a href="./privacy policy.html">Privacy Policy</a></li>
-                      <li><a href="./error 404.html">Error Page</a></li>
-                      <li><a href="./contact.html">Contact</a></li>
+                    <li><a href="./services.html">Services</a></li>
+                    <li>
+                      <a href="./services details.html">Services Details</a>
+                    </li>
                   </ul>
-              </li>
-              <li><a href="#">Services <span class="d-lg-inline-block d-none"><i class="fas fa-chevron-down"></i></span><span class="d-lg-none d-block float-end" ><i class="fas fa-plus"></i></span></a>
-                  <ul>
-                      <li><a href="./services.html">Services</a></li>
-                      <li><a href="./services details.html">Services Details</a></li>
-                  </ul>
-              </li>
-              <li><a href="./funding.html">funding</a></li>
-              <li><a href="./loans.html">Loans</a></li>
-              <li><a href="#">News <span class="d-lg-inline-block d-none"><i class="fas fa-chevron-down"></i></span><span class="d-lg-none d-block float-end" ><i class="fas fa-plus"></i></span></a>
-                  <ul>
-                      <li><a href="./news.html">News</a></li>
-                      <li><a href="./news details.html">News Details</a></li>
-                  </ul>
-              </li>
-              <li><a href="./contact.html">Contact</a></li>
+                </li>
+                <li><a href="./sign in.html">Sign In</a></li>
+                <li><a href="./sign up.html">Sign Up</a></li>
+                <li>
+                  <a href="./tearms & conditions.html">Tearms & Conditions</a>
+                </li>
+                <li><a href="./privacy policy.html">Privacy Policy</a></li>
+                <li><a href="./error 404.html">Error Page</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" class="mb-m-button3">
+                <label for="Services">Services</label>
+                <span class="plus3 d-lg-none d-block float-end"
+                  ><i class="fas fa-plus"></i
+                ></span>
+                <span class="minus3 d-lg-none d-block float-end d-none"
+                  ><i class="fas fa-minus"></i
+                ></span>
+              </a>
+              <input type="checkbox" id="Services" class="check d-none" />
+              <a href="#" class="lg-m-button"
+                >Services
+                <span class="d-lg-inline-block d-none"
+                  ><i class="fas fa-chevron-down"></i
+                ></span>
+              </a>
+              <ul>
+                <li><a href="./services.html">Services</a></li>
+                <li><a href="./services details.html">Services Details</a></li>
+              </ul>
+            </li>
+            <li><a href="./funding.html">funding</a></li>
+            <li><a href="./loans.html">Loans</a></li>
+            <li>
+              <a href="#" class="mb-m-button4">
+                <label for="News">News</label>
+                <span class="plus4 d-lg-none d-block float-end"
+                  ><i class="fas fa-plus"></i
+                ></span>
+                <span class="minus4 d-lg-none d-block float-end d-none"
+                  ><i class="fas fa-minus"></i
+                ></span>
+              </a>
+              <input type="checkbox" id="News" class="check d-none" />
+              <a href="#" class="lg-m-button"
+                >News
+                <span class="d-lg-inline-block d-none"
+                  ><i class="fas fa-chevron-down"></i
+                ></span>
+              </a>
+              <ul>
+                <li><a href="./news.html">News</a></li>
+                <li><a href="./news details.html">News Details</a></li>
+              </ul>
+            </li>
+            <li><a href="./contact.html">Contact</a></li>
           </ul>
 
-            <div class="right-s-nav d-flex align-items-center">
-                <div class="right-s-nav-search">
-                    <span class="nav-search"><i class="fas fa-search"></i></span>
-                    <span class="nav-search-close"><i class="fas fa-times"></i></span>
-                    <div class="search-ovely">
-                        <div class="input-group">
-                            <div class="form-outline">
-                              <input id="search-input" type="search" id="form1" class="form-control" placeholder="Search" />
-                            </div>
-                            <button id="search-button" type="button" class="btn btn-primary">
-                              <i class="fas fa-search"></i>
-                            </button>
-                          </div>
-                    </div>
+          <div class="right-s-nav d-flex align-items-center">
+            <div class="right-s-nav-search">
+              <span class="nav-search"><i class="fas fa-search"></i></span>
+              <span class="nav-search-close"><i class="fas fa-times"></i></span>
+              <div class="search-ovely">
+                <div class="input-group">
+                  <div class="form-outline">
+                    <input
+                      id="search-input"
+                      type="search"
+                      id="form1"
+                      class="form-control"
+                      placeholder="Search"
+                    />
+                  </div>
+                  <button
+                    id="search-button"
+                    type="button"
+                    class="btn btn-primary"
+                  >
+                    <i class="fas fa-search"></i>
+                  </button>
                 </div>
-                <div class="right-s-nav-call clearfix">
-                    <div class="call-icon float-start">
-                        <span><i class="fas fa-phone-alt"></i></span>
-                    </div>
-                    <div class="call-info float-start">
-                        <small>Call Now</small>
-                        <p><a href="tel:514312-5678">+1 (514) 312-5678</a></p>
-                    </div>
-                </div>
-                <div class="right-s-nav-button">
-                    <a class="btn default-btn" href="#">Apply Now</a>
-                </div>
+              </div>
+            </div>
+            <div class="right-s-nav-call clearfix">
+              <div class="call-icon float-start">
+                <span><i class="fas fa-phone-alt"></i></span>
+              </div>
+              <div class="call-info float-start">
+                <small>Call Now</small>
+                <p><a href="tel:514312-5678">+1 (514) 312-5678</a></p>
+              </div>
+            </div>
+            <div class="right-s-nav-button">
+              <a class="btn default-btn" href="#">Apply Now</a>
             </div>
           </div>
         </div>
+      </div>
     </nav>
 
     <!--===========================

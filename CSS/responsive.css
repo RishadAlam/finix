@@ -461,7 +461,9 @@ Large devices (desktops, 992px and up)
 =================================================================== */
 
 @media (min-width: 992px) { 
-
+    .mb-m-button,.mb-m-button2,.mb-m-button3,.mb-m-button4{
+        display: none;
+    }
 }
 
 
@@ -489,6 +491,40 @@ Large devices (desktops, 992px and Down)
         top: 8px;
         right: 70px;
     }
+
+    .lg-m-button{
+        display: none;
+    }
+
+    #navbar ul li:hover>ul{
+        visibility: hidden;
+    }
+
+    .check:checked ~ ul{
+        display: inline-block;
+        position: static !important;
+        opacity: 100% !important;
+        visibility: visible !important;
+        box-shadow: none !important;
+        padding: 5px 0 0 0 !important;
+        width: 100% !important;
+    }
+
+    #navbar ul>li>ul>li>ul>li>a{
+        padding-left: 12% !important;
+    }
+    
+    #navbar ul li ul li a{
+        padding-left: 5% !important;
+    }
+    .minus-show{
+        display: block !important;
+    }
+    .plus-hide{
+        display: none !important;
+    }
+
+    
      /*================================================================
                                 Home Page end
     =================================================================== */

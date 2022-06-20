@@ -43,6 +43,27 @@ $(function(){
       $(".nav-search").show();
     })
 
+    // NavBar Mobile menu
+    $(".mb-m-button").click(function () {   //For Page Button
+      $(".minus").toggleClass("minus-show");
+      $(".plus").toggleClass("plus-hide");
+    })
+
+    $(".mb-m-button2").click(function () {   // for projects button
+      $(".minus2").toggleClass("minus-show");
+      $(".plus2").toggleClass("plus-hide");
+    })
+
+    $(".mb-m-button3").click(function () {   // for services button
+      $(".minus3").toggleClass("minus-show");
+      $(".plus3").toggleClass("plus-hide");
+    })
+
+    $(".mb-m-button4").click(function () {   // for news button
+      $(".minus4").toggleClass("minus-show");
+      $(".plus4").toggleClass("plus-hide");
+    })
+
       //=== Brand Partner Owl Carosel int ===//
       $(".owl-carousel").owlCarousel({
             items:5,
